@@ -1,0 +1,16 @@
+📦 medical_chatbot_project
+│
+├── data/
+│   └── dummy_medical_records_batch_10.csv
+│
+├── app.py                ← Main Streamlit chatbot app
+├── chatbot_logic.py      ← Symptom-matching and response generator
+└── utils.py              ← (Optional helper functions)
+------------------------------------------------------------------------------------------------------------------------------------------------
+medical_chatbot/
+│
+├── app.py                  # Main file for Streamlit UI
+├── chatbot_logic.py        # Core logic for symptom matching and response
+├── data/                   # Folder containing your CSVs or any symptom/condition data
+│   └── symptoms_data.csv   # Example CSV containing symptoms, diagnosis, and recommendations
+└── requirements.txt        # File listing all dependencies
